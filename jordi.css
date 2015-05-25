@@ -1,0 +1,235 @@
+body {
+    
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 180%; 
+    background-attachment: fixed;
+    
+}
+
+h1 {
+    font-family: "Lobster";
+    color: #FFF;
+    font-size: 32pt;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h2 {
+    font-family: "Lato";
+    color: #FFF;
+    font-size: 16px;
+    text-align: center;
+}
+h3 {
+    font-family: "Lato";
+    color: #FFF;
+    font-size: 20px;
+}
+h4 {
+    font-family: "Lato";
+    color: #FFF;
+    font-size: 40px;
+}
+p {
+    font-family: "Lato", sans-serif;
+    color: #FFF;
+    font-size: 14px;
+}
+
+#intro p {
+    margin-left: 110px;
+    margin-top: 215px;
+    margin-right:200px;
+    margin-bottom: 40px;
+    
+}
+a:link,
+a:visited,
+a:active,
+a:hover{
+    color: #FFF;
+}
+
+a:hover {
+    text-decoration: none;
+}
+#wrapper {
+    margin: 0 auto;
+    width: 1400px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 4%;
+    
+}
+.container {
+    height: 389px;
+    width: 626px;
+    margin: 0 auto;
+}
+
+#construction {
+    max-height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#gif {
+    max-height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.portfolio {
+    max-width: 400px;
+    border: 3px solid white; 
+}
+.blok {
+  float: left;
+  width: 400px;
+  padding: 26px;
+}
+.row {
+    clear: both;
+}
+#menu {
+    list-style: none;
+    margin-right:  45px;
+}
+#menu a:active {
+color: #2c3e50;
+}
+#menu select {
+display: none;
+}
+
+#menu .active a {
+border:0;
+color: ;
+}
+#menu .active a:focus{
+	outline: none;
+border: none;
+}
+#menu .active a:active {
+	outline: none;
+border: none;;
+}
+#menu .active a:link {
+	outline: none;
+border: none;
+}
+#menu .active a:visited  {
+	outline: none;
+border: none;
+}
+#menu li{
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+	border-right:1px solid #000;
+	padding-left: 17px;
+	padding-right: 16px;
+	float:left;
+	font-family: 'Lato', 'sans-serif';
+	font-size:14px;
+	color:#fff;
+	list-style:none;
+	text-transform:uppercase;
+	font-weight:700;
+}
+#menu li:last-child{
+	border-right:0;
+	padding-right:0px;
+}
+#menu{
+	//margin-top: 33px;
+	margin-top: 74px;
+	float: right;
+}
+#menu li a{
+	color:#fff;
+	text-decoration:none;
+}
+#menu li a:hover{
+	border:none;
+	outline:none;
+	color: #2c3e50;
+}
+
+
+.skill {
+    margin: 0 auto;
+    padding: 20px;
+    width: 20%;
+    float: left;
+    
+}
+
+#wrapper_c {
+  display: block;
+  float: left;
+  background-color: #2E5251;
+  padding: 40px;
+  border-radius: 10px;
+  width: 25%;
+  margin-top: 150px;
+  margin-left: 70px;
+}
+
+
+#input {
+  width: 75%;
+  height: 35px;
+  padding: 10px;
+border-radius: 5px;
+    
+}
+
+#input1 {
+  width: 75%;
+  height: 135px;
+  padding: 10px;
+  border-radius: 5px;
+}
+#sm {
+  float: left;
+  margin-left: 340px;
+}
+#sm1 {
+    float: left;
+    
+}
+
+#smicons {
+    float: left;
+    margin-left: 60px;
+    margin-top: 10px;
+    
+}
+
+#inleiding {
+  float: left;
+  padding: 50px;
+  margin-left: 80px;
+}
+
+#werk {
+    list-style: none;
+}
+
+#opdracht{
+
+  float: left;
+  margin-left: 130px;
+  font-size: 30px;
+  font-family: "lato";
+  background-color: #00A89C;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#werk a:hover {
+    list-style: none;
+    color:#2E5251;
+}
+

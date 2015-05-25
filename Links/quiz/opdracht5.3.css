@@ -1,0 +1,36 @@
+body {
+    background-color: #1a7a70;
+}
+h1 {
+    font-family: "lato" "light";
+    font-size: 45pt;
+    text-align: center;
+    padding-top: 15px;
+    color: #FFF;
+}
+h2 {
+    font-family: "lato" "light";
+    font-size: 22pt;
+    padding-top: 15px;
+    color: #1a7a70;
+}
+    
+p {
+    font-family: "lato", "light";
+    font-size: 14pt;
+    color: #1a7a70;
+}
+a:link,
+a:visited,
+a:active,
+a:hover{
+    color: #1a7a70;
+}
+#wrapper {
+    width: 80%;
+    height: 100%;
+    background-color: #FFF;
+    padding: 15px;
+    margin: 0 auto;
+    box-shadow: 3px 3px 5px 0 #000000;
+}
